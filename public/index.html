@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Secret chat room</title>
+		<link rel="stylesheet" href="/css/chat.css"></link>
+	</head>
+	<body>
+		<h1> Chat App </h1>
+
+		<!-- RENDER ENTIRE MSG. THREAD HERE. -->
+		<p id="peer-status">Unknown</p>
+		<br>
+
+		<div id="msg-thread"></div>
+		<br>
+
+		<br>
+		<div id="outgoing-msg">
+			<input id="text-input" type="text" placeholder="Type your msg. here"></input>
+			<button id="send">Send</button>
+		</div>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/js/chat.js"></script>
+	</body>
+</html>

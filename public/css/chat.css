@@ -1,0 +1,20 @@
+
+/*
+#peer-status::before {
+    content: "Peer Status : ";
+}
+
+#peer-status {
+    border: none;
+}
+*/
+
+.incoming-msg {
+    color: brown;
+    float: left;
+}
+
+.outgoing-msg {
+    color: green;
+    float: right;
+}
